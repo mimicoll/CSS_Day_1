@@ -1,0 +1,202 @@
+body 
+{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*################################# CSS SELECTORS #######################################*/
+
+/*by element*/
+#selector > ul > div > li > span {
+    color: rgb(141, 0, 0);
+}
+
+/*by id*/
+#byid{
+    color: green;
+}
+/*by class*/
+.byclass{
+    color: rgb(23, 0, 231);
+}
+/*univesal selector*/
+div *{
+    color: rgb(0, 0, 0);
+}
+
+/*by attribute*/
+a[target] {
+    background-color: rgb(255, 112,  112);
+} 
+
+/*by pseudo selector*/
+
+a:hover {
+    color: #ff0000;
+  }
+
+/*by child*/
+.css_selectors  li:nth-child(7) {
+    text-decoration: line-through;
+}
+
+/*by descendant*/
+#selector li {
+    list-style-type: circle;
+}
+
+/*################################# WEB FORMS #######################################*/
+#webforms {
+    line-height: 40px;
+    width: 350px;
+    text-align: right;
+}
+input {
+    background-color: pink;
+}
+::placeholder {
+    color: aliceblue;
+}
+
+/*################################# CSS UNITS #######################################*/
+
+.page_width {
+    width: 200px;
+}
+
+.content_width {
+    width: 200px;
+}
+
+.rem_unit {
+    width: 200rem;
+}
+
+.em_unit {
+    width: 200em;
+}
+/*############################## FONT PROPERTIES ###################################*/
+/*===================== Text Decoration =====================*/
+
+.text_decoration  p:nth-child(2) {
+    text-decoration: solid;
+}
+.text_decoration  p:nth-child(3) {
+    text-decoration: underline;
+}
+.text_decoration  p:nth-child(4) {
+    text-decoration: line-through;
+}
+
+/*====================== Text Transform ======================*/
+
+.text_transform  p:nth-child(2) {
+    text-transform: uppercase;
+}
+
+.text_transform  p:nth-child(3) {
+    text-transform: lowercase;
+}
+.text_transform  p:nth-child(4) {
+    text-transform: capitalize;
+}
+
+/*======================== Text Align ========================*/
+
+.text_align  p:nth-child(2) {
+    text-align: right;
+}
+
+.text_align  p:nth-child(3) {
+    text-align: center;
+}
+
+.text_align  p:nth-child(4) {
+    text-align: left;
+}
+
+/*======================== Text Indent ========================*/
+
+.text_indent  p:nth-child(2) {
+    text-indent: 20px;
+}
+/*======================== Line Height ========================*/
+
+.line_height p:nth-child(2) 
+{ 
+    line-height: 2rem; 
+}
+.line_height p:nth-child(2) 
+{ 
+    line-height: 4rem; 
+}
+
+/*======================= Letter Spacing =======================*/
+
+.letter_spacing p:nth-child(2) 
+{ 
+    letter-spacing: .2rem; 
+}
+.letter_spacing p:nth-child(3) 
+{ 
+    letter-spacing: .4rem; 
+}
+
+/*======================== Word Spacing ========================*/
+
+.word_spacing p:nth-child(2) 
+{ 
+    word-spacing: .5rem; 
+}
+.word_spacing p:nth-child(3) 
+{ 
+    word-spacing: 1rem; 
+}
+
+/*======================== Font Weight ========================*/
+
+.font_weight p:nth-child(2) 
+{ 
+    font-weight: 300; 
+}
+
+.font_weight p:nth-child(3) 
+{ 
+    font-weight: 400; 
+}
+
+.font_weight p:nth-child(4) 
+{ 
+    font-weight: 500; 
+}
+
+.font_weight p:nth-child(5) 
+{ 
+    font-weight: 800; 
+}
+
+.font_weight p:nth-child(6) 
+{ 
+    font-weight: light; 
+}
+
+.font_weight p:nth-child(7) 
+{ 
+    font-weight: bold; 
+}
+
+/*======================== Font Style ========================*/
+
+.font_style p:nth-child(2) 
+{ 
+    font-style: italic; 
+}
+
+.font_style p:nth-child(3) 
+{ 
+    font-style: normal; 
+}
+.font_style p:nth-child(4) 
+{ 
+    font-style: oblique; 
+}
